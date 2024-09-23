@@ -11,6 +11,8 @@
 		0A3E56422C9791AA00FD15A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E56412C9791AA00FD15A8 /* ContentView.swift */; };
 		0A3E56442C9791AC00FD15A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E56432C9791AC00FD15A8 /* Assets.xcassets */; };
 		0A3E56472C9791AC00FD15A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E56462C9791AC00FD15A8 /* Preview Assets.xcassets */; };
+		0AE47C592CA106BE0014B0E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C582CA106BE0014B0E7 /* Card.swift */; };
+		0AE47C5B2CA107660014B0E7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C5A2CA107660014B0E7 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0A3E56412C9791AA00FD15A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A3E56432C9791AC00FD15A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3E56462C9791AC00FD15A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AE47C582CA106BE0014B0E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0AE47C5A2CA107660014B0E7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0A3E563F2C9791AA00FD15A8 /* FlashzillaApp.swift */,
 				0A3E56412C9791AA00FD15A8 /* ContentView.swift */,
+				0AE47C582CA106BE0014B0E7 /* Card.swift */,
+				0AE47C5A2CA107660014B0E7 /* CardView.swift */,
 				0A3E56432C9791AC00FD15A8 /* Assets.xcassets */,
 				0A3E56452C9791AC00FD15A8 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3E56422C9791AA00FD15A8 /* ContentView.swift in Sources */,
+				0AE47C592CA106BE0014B0E7 /* Card.swift in Sources */,
+				0AE47C5B2CA107660014B0E7 /* CardView.swift in Sources */,
 				0A3E56402C9791AA00FD15A8 /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +286,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
